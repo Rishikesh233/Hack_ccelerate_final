@@ -20,15 +20,12 @@ st.markdown(f""" <style>
 with st.spinner('Working on your request!'):
     time.sleep(8)  # Loading spinner call so that user does not get bored
 
-col1, col2 = st.sidebar.columns([1, 8])
-image1 = Image.open('WebsiteLogo2.jpg')
-with col1:
-    st.image(image1, width=45)
-    with col2:
-        st.markdown('<h3 style="color: lightyellow; font-family: courier;">MENU</h3>',
+col2 = st.sidebar.columns([1, 8])
+with col2:
+    st.markdown('<h3 style="color: lightyellow; font-family: courier;">MENU</h3>',
                         unsafe_allow_html=True)
-url1 = 'https://share.streamlit.io/rajeev1815/microsoft-engage/main/Data_Visualisation.py'
-url2 = 'https://share.streamlit.io/rajeev1815/car-predictor-engage/main/CarPredictor.py'
+url1 = 'hhttps://rishikesh233-hack-ccelerate-data-visualisation-1r2xz9.streamlit.app/'
+url2 = 'https://rishikesh233-hack-ccelerate-car-carpredictor-ofmes7.streamlit.app/'
 col1, col2 = st.sidebar.columns([1, 10])
 with col1:
     st.image(
