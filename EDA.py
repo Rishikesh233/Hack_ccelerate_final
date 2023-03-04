@@ -63,7 +63,7 @@ with col1:
         button5 = st.button('About Us')
 
 if ((button3 != True) & (button5 != True)):
-    col1, col2 = st.columns([0, 4])
+    col1, col2 = st.columns([1, 4])
     engage = Image.open('image001.jpg')
     col2.image(engage, width=600)
 
