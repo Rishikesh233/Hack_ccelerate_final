@@ -64,7 +64,7 @@ with col1:
 
 if ((button3 != True) & (button5 != True)):
     col1, col2 = st.columns([1, 4])
-#     logo = Image.open('WebsiteLogo.png')
+    logo = Image.open('https://cdn-icons-png.flaticon.com/512/21/21283.png?w=740&t=st=1677951952~exp=1677952552~hmac=92c89ee9b8106670d66460e29f7c327a1c4254a10f82e00a320e40d91821d308')
     col1.image(logo, width=200)
     engage = Image.open('image001.jpg')
     col2.image(engage, width=900)
