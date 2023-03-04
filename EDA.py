@@ -22,7 +22,7 @@ with st.spinner('Working on your request!'):
 
 col1,col2 = st.sidebar.columns([1, 8])
 with col1:
-    st.image("https://i.pinimg.com/736x/c9/23/d9/c923d95813aa64751088cd3a6dc65715.jpg", width=35)
+#     st.image("https://i.pinimg.com/736x/c9/23/d9/c923d95813aa64751088cd3a6dc65715.jpg", width=35)
     with col2:
         st.markdown('<h3 style="color: lightyellow; font-family: courier;">MENU</h3>',unsafe_allow_html=True)
 
@@ -64,7 +64,7 @@ with col1:
 
 if ((button3 != True) & (button5 != True)):
     col1, col2 = st.columns([1, 4])
-    logo = Image.open('WebsiteLogo.png')
+#     logo = Image.open('WebsiteLogo.png')
     col1.image(logo, width=200)
     engage = Image.open('image001.jpg')
     col2.image(engage, width=900)
