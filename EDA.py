@@ -20,9 +20,12 @@ st.markdown(f""" <style>
 with st.spinner('Working on your request!'):
     time.sleep(8)  # Loading spinner call so that user does not get bored
 
-col2 = st.sidebar.columns([1, 8])
-with col2:
-    st.markdown('<h3 style="color: lightyellow; font-family: courier;">MENU</h3>',unsafe_allow_html=True)
+col1,col2 = st.sidebar.columns([1, 8])
+with col1:
+    st.image("https://i.pinimg.com/736x/c9/23/d9/c923d95813aa64751088cd3a6dc65715.jpg", width=35)
+    with col2:
+        st.markdown('<h3 style="color: lightyellow; font-family: courier;">MENU</h3>',unsafe_allow_html=True)
+
 url1 = 'hhttps://rishikesh233-hack-ccelerate-data-visualisation-1r2xz9.streamlit.app/'
 url2 = 'https://rishikesh233-hack-ccelerate-car-carpredictor-ofmes7.streamlit.app/'
 col1, col2 = st.sidebar.columns([1, 10])
