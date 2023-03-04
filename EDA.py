@@ -64,7 +64,7 @@ with col1:
 
 if ((button3 != True) & (button5 != True)):
     col1, col2 = st.columns([1, 4])
-    logo = Image.open('https://hoima.go.ug/wp-content/uploads/2021/09/662-6627316_person-icon-transparent-background-hd-png-download.png')
+    logo = Image.open('WebsiteLogo.png')
     col1.image(logo, width=200)
     engage = Image.open('image001.jpg')
     col2.image(engage, width=900)
