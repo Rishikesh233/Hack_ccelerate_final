@@ -22,8 +22,7 @@ with st.spinner('Working on your request!'):
 
 col2 = st.sidebar.columns([1, 8])
 with col2:
-    st.markdown('<h3 style="color: lightyellow; font-family: courier;">MENU</h3>',
-                        unsafe_allow_html=True)
+    st.markdown('<h3 style="color: lightyellow; font-family: courier;">MENU</h3>',unsafe_allow_html=True)
 url1 = 'hhttps://rishikesh233-hack-ccelerate-data-visualisation-1r2xz9.streamlit.app/'
 url2 = 'https://rishikesh233-hack-ccelerate-car-carpredictor-ofmes7.streamlit.app/'
 col1, col2 = st.sidebar.columns([1, 10])
