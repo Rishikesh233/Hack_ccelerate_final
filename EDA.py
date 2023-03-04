@@ -63,11 +63,9 @@ with col1:
         button5 = st.button('About Us')
 
 if ((button3 != True) & (button5 != True)):
-    col1, col2 = st.columns([1, 4])
-#     logo = Image.open('WebsiteLogo.png')
-#     col1.image(logo, width=200)
+    col1, col2 = st.columns([0, 4])
     engage = Image.open('image001.jpg')
-    col2.image(engage, width=900)
+    col2.image(engage, width=600)
 
     data = pd.read_csv("Cleaned Engage Car.csv")
     data.drop('Unnamed: 0', inplace=True, axis=1)
