@@ -35,13 +35,15 @@ with col1:
     with col2:
         button1 = st.button('Home')
         
+# Display an image in the first column
 with col1:
     st.image("https://cdn3.vectorstock.com/i/1000x1000/94/42/data-icon-on-white-background-simple-element-from-vector-28229442.jpg", width=35)
-    with col2:
-        button2 =st.button('Data Visualization')
-        if button2:
-            webbrowser.open_new_tab(
-                'https://rishikesh233-hack-ccelerate-data-visualisation-1r2xz9.streamlit.app')
+
+# Display a button in the second column
+with col2:
+    button2 = st.button('Data Visualization')
+    if button2:
+        webbrowser.open_new_tab('https://rishikesh233-hack-ccelerate-data-visualisation-1r2xz9.streamlit.app')
         
 with col1:
     st.image("https://media.istockphoto.com/vectors/report-icon-vector-sign-and-symbol-isolated-on-white-background-logo-vector-id1001207390?k=20&m=1001207390&s=170667a&w=0&h=9sctNa8KvgTkKq6dlatFqZElGgsS2lcmaraUES137pw=", width=35)
