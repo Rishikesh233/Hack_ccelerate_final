@@ -38,9 +38,9 @@ with col1:
 with col1:
     st.image("https://cdn3.vectorstock.com/i/1000x1000/94/42/data-icon-on-white-background-simple-element-from-vector-28229442.jpg", width=35)
     with col2:
-        button2 = st.button('Data Visualization')
+        button2 =st.button('Data Visualization')
         if button2:
-            webbrowser.get('chrome').open_new_tab(
+            webbrowser.open_new_tab(
                 'https://rishikesh233-hack-ccelerate-data-visualisation-1r2xz9.streamlit.app')
         
 with col1:
