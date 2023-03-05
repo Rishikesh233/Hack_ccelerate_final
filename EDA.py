@@ -40,7 +40,7 @@ with col1:
     with col2:
         button2 = st.button('Data Visualization')
         if button2:
-            webbrowser.open_new_tab(
+            webbrowser.get('chrome').open_new_tab(
                 'https://rishikesh233-hack-ccelerate-data-visualisation-1r2xz9.streamlit.app')
         
 with col1:
