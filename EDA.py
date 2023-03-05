@@ -43,7 +43,10 @@ with col1:
     with col2:
         button2 = st.button('Data Visualization')
         if button2:
-            webbrowser.open_new_tab('https://rishikesh233-hack-ccelerate-data-visualisation-1r2xz9.streamlit.app')
+            js = "window.open('https://rishikesh233-hack-ccelerate-data-visualisation-1r2xz9.streamlit.app')"
+            html = '<img src onerror="{}">'.format(js)
+            div = Div(text=html)
+            st.bokeh_chart(div)
         
 with col1:
     st.image("https://media.istockphoto.com/vectors/report-icon-vector-sign-and-symbol-isolated-on-white-background-logo-vector-id1001207390?k=20&m=1001207390&s=170667a&w=0&h=9sctNa8KvgTkKq6dlatFqZElGgsS2lcmaraUES137pw=", width=35)
